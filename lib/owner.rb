@@ -39,4 +39,9 @@ class Owner
   def buy_dog(name)
     @pets[:dogs].push(Dog.new(name))
   end
+
+  def walk_dogs
+    @pets[:dogs].each do |dog|
+      puts "#{dog}"
+    end
 end
