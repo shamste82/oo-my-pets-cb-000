@@ -44,4 +44,5 @@ class Owner
     @pets[:dogs].each do |dog|
       puts "#{dog}"
     end
+  end
 end
