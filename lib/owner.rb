@@ -2,7 +2,8 @@ class Owner
   attr_accessor :pets
   @@all
 
-  def all
+  def self.all
     @@all = self
   end
+
 end
