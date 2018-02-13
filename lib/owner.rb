@@ -58,6 +58,6 @@ class Owner
     @pets.each do |key, array|
        array.each { |pet| pet.mood = "nervous"}
     end
-    
+    @pets.clear
   end
 end
