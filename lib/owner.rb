@@ -58,5 +58,6 @@ class Owner
     @pets.each do |key, array|
       array = "nervous"
     end
+    @pets.clear
   end
 end
