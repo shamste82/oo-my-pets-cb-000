@@ -27,4 +27,7 @@ class Owner
   def say_species
     return "I am a #{self.species}."
   end
+
+  def buy_fish(name)
+    @pets[:fishes].push(Fish.new(name))
 end
